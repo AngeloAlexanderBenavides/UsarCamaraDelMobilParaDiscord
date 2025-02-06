@@ -15,9 +15,9 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 ## ⚙️ Configuración
 - Crea un archivo de configuración llamado config.vne en la carpeta del proyecto:
 
-#Editar
+## Editar
 IP=000.000.000.00  # Reemplaza con la IP de tu DroidCam previamente descargada en tu mobil
-#Ejecuta el script:
+# Ejecuta el script:
 
 ## Instálalos con:
 
@@ -37,14 +37,8 @@ IP=000.000.000.00  # Reemplaza con la IP de tu DroidCam previamente descargada e
 ```sh
 pip install opencv-python pyvirtualcam numpy python-dotenv
 
-
-
-
 #python camera.py
 
-
-
 Este `README.md` explica el propósito, instalación, configuración y solución de errores. 🚀 ¿Quieres agregar algo más? 😎
-
 
 """
