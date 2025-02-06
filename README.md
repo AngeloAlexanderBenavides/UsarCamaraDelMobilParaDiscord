@@ -16,14 +16,21 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 📝 Explicación del Código
 Carga la IP de config.vne usando dotenv para conectarse a DroidCam.
+
 Captura el video desde la IP con OpenCV (cv2.VideoCapture).
+
 Ajusta el frame (recorta, redimensiona, convierte a formato OBS).
+
 Envía el video a una cámara virtual usando PyVirtualCam.
+
 🔧 Posibles Errores y Soluciones
+
 ❌ Error: No se pudo conectar con DroidCam
+
 ✅ Asegúrate de que la app esté abierta y usa la IP correcta en config.vne.
 
 ❌ UnicodeDecodeError en config.vne
+
 ✅ Guarda el archivo con codificación UTF-8 sin BOM.
 
 
