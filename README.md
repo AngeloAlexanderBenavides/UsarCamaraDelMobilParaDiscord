@@ -12,6 +12,13 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 - NumPy (`numpy`)
 - python-dotenv (`python-dotenv`)
 
+## ⚙️ Configuración
+- Crea un archivo de configuración llamado config.vne en la carpeta del proyecto:
+
+#Editar
+IP=000.000.000.00  # Reemplaza con la IP de tu DroidCam previamente descargada en tu mobil
+#Ejecuta el script:
+
 ## Instálalos con:
 
 📝 Explicación del Código
@@ -21,30 +28,17 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 - Ajusta el frame (recorta, redimensiona, convierte a formato OBS).
 - Envía el video a una cámara virtual usando PyVirtualCam.
 
-##🔧 Posibles Errores y Soluciones
-
-❌ Error: No se pudo conectar con DroidCam
-
-✅ Asegúrate de que la app esté abierta y usa la IP correcta en config.vne.
-
-❌ UnicodeDecodeError en config.vne
-
-✅ Guarda el archivo con codificación UTF-8 sin BOM.
-
-
-
-
+## 🔧 Posibles Errores y Soluciones
+- ❌ Error: No se pudo conectar con DroidCam
+- ✅ Asegúrate de que la app esté abierta y usa la IP correcta en config.vne.
+- ❌ UnicodeDecodeError en config.vne
+- ✅ Guarda el archivo con codificación UTF-8 sin BOM.
 
 ```sh
 pip install opencv-python pyvirtualcam numpy python-dotenv
 
 
-⚙️ Configuración
-Crea un archivo de configuración llamado config.vne en la carpeta del proyecto:
 
-#Editar
-IP=000.000.000.00  # Reemplaza con la IP de tu DroidCam previamente descargada en tu mobil
-#Ejecuta el script:
 
 #python camera.py
 
